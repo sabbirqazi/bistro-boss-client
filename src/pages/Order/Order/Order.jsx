@@ -7,7 +7,7 @@ import 'react-tabs/style/react-tabs.css';
 import OrderTab from '../OrderTab/OrderTab';
 import { useParams } from 'react-router';
 import { Helmet } from 'react-helmet-async';
-import useMenu from '../../hooks/useMenu';
+import useMenu from '../../../hooks/useMenu';
 
 const Order = () => {
     const categories = ['salad', 'pizza', 'soup', 'dessert', 'drinks'];
